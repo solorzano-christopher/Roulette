@@ -8,7 +8,7 @@ namespace Roulette
     {
         public static string GameType (string input)
         {
-            string strGameType = "";
+            string strGameType = input;
             if (!input.Equals("Numbers") && !input.Equals("Evens/Odds") && !input.Equals ("Reds/Blacks") && !input.Equals ("Lows/Highs") 
                 && !input.Equals ("Dozens") && !input.Equals("Columns") &&  !input.Equals("Street") && !input.Equals ("6 Numbers")
                 && !input.Equals ("Split") && !input.Equals ("Corner"))
