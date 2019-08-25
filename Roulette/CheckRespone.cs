@@ -9,9 +9,9 @@ namespace Roulette
         public static string GameType (string input)
         {
             string strGameType = input;
-            if (!input.Equals("Numbers") && !input.Equals("Evens/Odds") && !input.Equals ("Reds/Blacks") && !input.Equals ("Lows/Highs") 
-                && !input.Equals ("Dozens") && !input.Equals("Columns") &&  !input.Equals("Street") && !input.Equals ("6 Numbers")
-                && !input.Equals ("Split") && !input.Equals ("Corner"))
+            if (!strGameType.Equals("Numbers") && !strGameType.Equals("Evens/Odds") && !strGameType.Equals ("Reds/Blacks") && !strGameType.Equals ("Lows/Highs") 
+                && !strGameType.Equals ("Dozens") && !strGameType.Equals("Columns") &&  !strGameType.Equals("Street") && !strGameType.Equals ("6 Numbers")
+                && !strGameType.Equals ("Split") && !strGameType.Equals ("Corner"))
             {
                 Console.Clear();
                 Console.WriteLine("Not a valid entry! Try again!");
