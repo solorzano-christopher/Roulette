@@ -47,7 +47,7 @@ namespace Roulette
             Console.WriteLine("What number would you like to bet?");
             string NumBet = Console.ReadLine();
             int Bet = StringtoInt(NumBet);
-            int result = 1;
+            int result = RandomNumberGen();
             string GameResult = "You lost!";
             Console.WriteLine($"\nBall laned on {result}");
             if (Bet == result)
